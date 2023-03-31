@@ -1,5 +1,15 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+  const num1 = array.any;
+  const num2 = array.any;
+
+ 
+  if (num1 + num2 === target) {
+    return true;
+  } else if (num1 + num2 != target) {
+    return false;
+  }
+  // declare two random numbers, then equate their sum to the target,
+  //if equal, true; if different,false
 }
 
 /* 
